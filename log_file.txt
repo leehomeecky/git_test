@@ -1,9 +1,0 @@
-.LOG
-
-
-this is when this file was created
-1:30 PM 7/24/2022
-
-i just wanted to see if it was working
-
-thank you
