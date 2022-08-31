@@ -1,5 +1,5 @@
 # pgSQL_pgAdmin_docker_practics
-this project has the PostgreSQL, Latest and the PGAdmin, Latest version docher image,
+this project pulls the PostgreSQL, Latest and the PGAdmin, Latest version docker image,
 it comprices of a Dockerfile.txt, and a docker-compose.yaml file in it
 
 #THE PORTS MAPPING
