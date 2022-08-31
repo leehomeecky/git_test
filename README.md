@@ -26,6 +26,6 @@ it comprices of a Dockerfile.txt, and a docker-compose.yaml file in it
 >>     docker exec -it meecky-pgdb bash
 >>>     psql -U postgres
 
->> **NOTE:** meecky meecky-pgdb, and meecky-pgadmin are the container name for the postgres db, and pgadmi respectively,
+>> **NOTE:** meecky-pgdb, and meecky-pgadmin are the container name for the postgres db, and pgadmi respectively,
 and they can be changed to whatever you want in the docker-compose.yaml file.
 if changed, then remember ro also impliment changes every where necessary
