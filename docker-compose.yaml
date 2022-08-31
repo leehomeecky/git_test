@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  postgresdb:
+    build: ./db/pgdb
+    container_name: meecky-pgdb
+    environment:
+      POSTGRES_PASSWORD: MEECKY
+      #PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./db/pgdb/data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - default
+
+  pgadmin:
+    build: ./db/pgadmin
+    container_name: meecky-pgadmin
+    restart: always
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=user@domain.com
+      - PGADMIN_DEFAULT_PASSWORD=SuperSecret
+    volumes:
+      - ./db/pgadmin/data:/var/lib/pgadmin
+    ports:
+      - 8080:80
+
+ 
