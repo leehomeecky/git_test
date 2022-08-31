@@ -24,7 +24,7 @@ it comprices of a Dockerfile.txt, and a docker-compose.yaml file in it
 
 >## TO CONNECT WITH THE TERMINAL, USE THE FOLLOWING COMMANDS
 >>     docker exec -it meecky-pgdb bash
->>     psql -U postgres
+>>>     psql -U postgres
 
 >> **NOTE:** meecky meecky-pgdb, and meecky-pgadmin are the container name for the postgres db, and pgadmi respectively,
 and they can be changed to whatever you want in the docker-compose.yaml file.
